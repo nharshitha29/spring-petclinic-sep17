@@ -15,7 +15,7 @@ permissions:
     
 jobs:
   call-reusable:
-    uses: ./.github/workflows/reusable-mvn.yaml
+    uses: nharshitha29/MULTI--CLOUD/.github/workflows/reusable-mvn.yaml@v1
     with:
       java-version: '21'
       agent: 'ubuntu-latest'
